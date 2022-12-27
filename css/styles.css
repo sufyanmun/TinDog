@@ -13,6 +13,13 @@ h1 {
     line-height: 1.5;
   }
 
+.cta-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -31,7 +38,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -65,12 +72,16 @@ p {
 .title-image {
     width: 60%;
     rotate: 23deg;
+    position: relative;
+    left: 15%
 }
 
 /* Features Sections */
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -110,12 +121,14 @@ p {
     padding-bottom: 3%;
     background-color: #ef8172;
     text-align: center;
+
 }
 
 .press-logos {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
 /* Pricing Section  */
 
 #pricing {
@@ -126,3 +139,34 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* Call to Action Section  */
+
+#cta {
+    padding: 100px;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.social-icons {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
+
+
+
+
